@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FIBI TECH - Réalisations</title>
+<style>
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+header, footer {
+  background: #020617;
+  padding: 20px;
+  text-align: center;
+}
+
+header h2 {
+  margin: 0 0 10px 0;
+  font-size: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #4f46e5;
+}
+
+.gallery {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.project {
+  background: #1e293b;
+  border-radius: 15px;
+  overflow: hidden;
+  padding-bottom: 15px;
+  transition: transform 0.4s, box-shadow 0.4s;
+  max-width: 300px;
+}
+
+.project img {
+  width: 100%;
+  display: block;
+  transition: transform 0.4s;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.project-title {
+  padding: 10px 15px 5px 15px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.project-desc {
+  padding: 0 15px 15px 15px;
+  font-size: 0.95rem;
+  text-align: justify;
+  color: #cbd5e1;
+}
+
+footer {
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>FIBI TECH</h2>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="services.html">Services</a>
+    <a href="apropos.html">À propos</a>
+    <a href="portfolio.html">Réalisations</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="gallery">
+  <h2>Nos Projets</h2>
+  <div class="projects-grid">
+    <div class="project">
+      <img src="https://via.placeholder.com/250" alt="Projet 1">
+      <div class="project-title">Projet 1</div>
+      <div class="project-desc">Développement d’un site e-commerce moderne pour une boutique locale, intégrant un système de paiement sécurisé et un design responsive afin d’améliorer l’expérience client et booster les ventes en ligne efficacement.</div>
+    </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/250" alt="Projet 2">
+      <div class="project-title">Projet 2</div>
+      <div class="project-desc">Création d’une application mobile pour faciliter la gestion des tâches quotidiennes d’une petite entreprise, incluant notifications, calendrier intégré et synchronisation multi-utilisateurs.</div>
+    </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/250" alt="Projet 3">
+      <div class="project-title">Projet 3</div>
+      <div class="project-desc">Refonte complète du site web d’une start-up technologique afin d’améliorer la vitesse de chargement, l’accessibilité mobile et le référencement naturel pour augmenter la visibilité sur Google.</div>
+    </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/250" alt="Projet 4">
+      <div class="project-title">Projet 4</div>
+      <div class="project-desc">Mise en place d’un système de gestion interne pour suivre les stocks et ventes d’un magasin, avec tableau de bord interactif et export PDF automatique pour simplifier le suivi administratif.</div>
+    </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/250" alt="Projet 5">
+      <div class="project-title">Projet 5</div>
+      <div class="project-desc">Développement d’une plateforme de réservation en ligne pour une entreprise de services, intégrant calendrier, paiement et notifications automatiques pour optimiser l’organisation des rendez-vous.</div>
+    </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/250" alt="Projet 6">
+      <div class="project-title">Projet 6</div>
+      <div class="project-desc">Création d’un blog interactif pour un influenceur local, avec intégration des réseaux sociaux, section commentaires et design responsive pour améliorer l’engagement des visiteurs.</div>
+    </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/250" alt="Projet 7">
+      <div class="project-title">Projet 7</div>
+      <div class="project-desc">Développement d’un tableau de bord analytique pour une PME, permettant de suivre les indicateurs clés de performance en temps réel et faciliter la prise de décision stratégique.</div>
+    </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/250" alt="Projet 8">
+      <div class="project-title">Projet 8</div>
+      <div class="project-desc">Création d’une application web pour la gestion d’événements culturels, incluant inscriptions en ligne, billetterie et notifications aux participants pour une meilleure organisation.</div>
+    </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/250" alt="Projet 9">
+      <div class="project-title">Projet 9</div>
+      <div class="project-desc">Intégration d’un chatbot sur un site e-commerce afin de répondre automatiquement aux questions fréquentes des clients et améliorer le support client 24/7.</div>
+    </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/250" alt="Projet 10">
+      <div class="project-title">Projet 10</div>
+      <div class="project-desc">Conception d’une newsletter interactive et responsive pour une entreprise, permettant d’informer régulièrement les clients des promotions et nouveautés produits.</div>
+    </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/250" alt="Projet 11">
+      <div class="project-title">Projet 11</div>
+      <div class="project-desc">Développement d’un outil interne de planification de projets, avec fonctionnalités de suivi des tâches, notifications et export de rapports pour faciliter la gestion d’équipe.</div>
+    </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/250" alt="Projet 12">
+      <div class="project-title">Projet 12</div>
+      <div class="project-desc">Création d’un portfolio en ligne pour un artiste local, avec galerie interactive, sections de contact et intégration des réseaux sociaux pour augmenter la visibilité.</div>
+    </div>
+    <div class="project">
+      <img src="https://via.placeholder.com/250" alt="Projet 13">
+      <div class="project-title">Projet 13</div>
+      <div class="project-desc">Mise en place d’un système de suivi client pour une PME, avec base de données sécurisée et interface simple, afin d’améliorer le suivi des commandes et la satisfaction client.</div>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 FIBI TECH - Tous droits réservés</footer>
+
+</body>
+</html>
